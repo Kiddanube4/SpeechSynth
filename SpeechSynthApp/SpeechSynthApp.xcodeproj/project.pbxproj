@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56200FD82954BD67002E20CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56200FD72954BD67002E20CE /* AppDelegate.swift */; };
-		56200FDA2954BD67002E20CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56200FD92954BD67002E20CE /* SceneDelegate.swift */; };
-		56200FDC2954BD67002E20CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56200FDB2954BD67002E20CE /* ViewController.swift */; };
-		56200FDF2954BD67002E20CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56200FDD2954BD67002E20CE /* Main.storyboard */; };
-		56200FE12954BD68002E20CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56200FE02954BD68002E20CE /* Assets.xcassets */; };
-		56200FE42954BD68002E20CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56200FE22954BD68002E20CE /* LaunchScreen.storyboard */; };
+		56F46F132954E76900DAC2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F122954E76900DAC2B8 /* AppDelegate.swift */; };
+		56F46F152954E76900DAC2B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F142954E76900DAC2B8 /* SceneDelegate.swift */; };
+		56F46F172954E76900DAC2B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F162954E76900DAC2B8 /* ViewController.swift */; };
+		56F46F1A2954E76900DAC2B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F46F182954E76900DAC2B8 /* Main.storyboard */; };
+		56F46F1C2954E76A00DAC2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F46F1B2954E76A00DAC2B8 /* Assets.xcassets */; };
+		56F46F1F2954E76A00DAC2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F46F1D2954E76A00DAC2B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56200FD42954BD67002E20CE /* SpeechSynthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56200FD72954BD67002E20CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56200FD92954BD67002E20CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56200FDB2954BD67002E20CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56200FDE2954BD67002E20CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56200FE02954BD68002E20CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56200FE32954BD68002E20CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		56200FE52954BD68002E20CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F46F0F2954E76900DAC2B8 /* SpeechSynthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F46F122954E76900DAC2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F46F142954E76900DAC2B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56F46F162954E76900DAC2B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56F46F192954E76900DAC2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F46F1B2954E76A00DAC2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F46F1E2954E76A00DAC2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56F46F202954E76A00DAC2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56200FD12954BD67002E20CE /* Frameworks */ = {
+		56F46F0C2954E76900DAC2B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		56200FCB2954BD67002E20CE = {
+		56F46F062954E76900DAC2B8 = {
 			isa = PBXGroup;
 			children = (
-				56200FD62954BD67002E20CE /* SpeechSynthApp */,
-				56200FD52954BD67002E20CE /* Products */,
+				56F46F112954E76900DAC2B8 /* SpeechSynthApp */,
+				56F46F102954E76900DAC2B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		56200FD52954BD67002E20CE /* Products */ = {
+		56F46F102954E76900DAC2B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56200FD42954BD67002E20CE /* SpeechSynthApp.app */,
+				56F46F0F2954E76900DAC2B8 /* SpeechSynthApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56200FD62954BD67002E20CE /* SpeechSynthApp */ = {
+		56F46F112954E76900DAC2B8 /* SpeechSynthApp */ = {
 			isa = PBXGroup;
 			children = (
-				56200FD72954BD67002E20CE /* AppDelegate.swift */,
-				56200FD92954BD67002E20CE /* SceneDelegate.swift */,
-				56200FDB2954BD67002E20CE /* ViewController.swift */,
-				56200FDD2954BD67002E20CE /* Main.storyboard */,
-				56200FE02954BD68002E20CE /* Assets.xcassets */,
-				56200FE22954BD68002E20CE /* LaunchScreen.storyboard */,
-				56200FE52954BD68002E20CE /* Info.plist */,
+				56F46F122954E76900DAC2B8 /* AppDelegate.swift */,
+				56F46F142954E76900DAC2B8 /* SceneDelegate.swift */,
+				56F46F162954E76900DAC2B8 /* ViewController.swift */,
+				56F46F182954E76900DAC2B8 /* Main.storyboard */,
+				56F46F1B2954E76A00DAC2B8 /* Assets.xcassets */,
+				56F46F1D2954E76A00DAC2B8 /* LaunchScreen.storyboard */,
+				56F46F202954E76A00DAC2B8 /* Info.plist */,
 			);
 			path = SpeechSynthApp;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56200FD32954BD67002E20CE /* SpeechSynthApp */ = {
+		56F46F0E2954E76900DAC2B8 /* SpeechSynthApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56200FE82954BD68002E20CE /* Build configuration list for PBXNativeTarget "SpeechSynthApp" */;
+			buildConfigurationList = 56F46F232954E76A00DAC2B8 /* Build configuration list for PBXNativeTarget "SpeechSynthApp" */;
 			buildPhases = (
-				56200FD02954BD67002E20CE /* Sources */,
-				56200FD12954BD67002E20CE /* Frameworks */,
-				56200FD22954BD67002E20CE /* Resources */,
+				56F46F0B2954E76900DAC2B8 /* Sources */,
+				56F46F0C2954E76900DAC2B8 /* Frameworks */,
+				56F46F0D2954E76900DAC2B8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = SpeechSynthApp;
 			productName = SpeechSynthApp;
-			productReference = 56200FD42954BD67002E20CE /* SpeechSynthApp.app */;
+			productReference = 56F46F0F2954E76900DAC2B8 /* SpeechSynthApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		56200FCC2954BD67002E20CE /* Project object */ = {
+		56F46F072954E76900DAC2B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					56200FD32954BD67002E20CE = {
+					56F46F0E2954E76900DAC2B8 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 56200FCF2954BD67002E20CE /* Build configuration list for PBXProject "SpeechSynthApp" */;
+			buildConfigurationList = 56F46F0A2954E76900DAC2B8 /* Build configuration list for PBXProject "SpeechSynthApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 56200FCB2954BD67002E20CE;
-			productRefGroup = 56200FD52954BD67002E20CE /* Products */;
+			mainGroup = 56F46F062954E76900DAC2B8;
+			productRefGroup = 56F46F102954E76900DAC2B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56200FD32954BD67002E20CE /* SpeechSynthApp */,
+				56F46F0E2954E76900DAC2B8 /* SpeechSynthApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		56200FD22954BD67002E20CE /* Resources */ = {
+		56F46F0D2954E76900DAC2B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56200FE42954BD68002E20CE /* LaunchScreen.storyboard in Resources */,
-				56200FE12954BD68002E20CE /* Assets.xcassets in Resources */,
-				56200FDF2954BD67002E20CE /* Main.storyboard in Resources */,
+				56F46F1F2954E76A00DAC2B8 /* LaunchScreen.storyboard in Resources */,
+				56F46F1C2954E76A00DAC2B8 /* Assets.xcassets in Resources */,
+				56F46F1A2954E76900DAC2B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		56200FD02954BD67002E20CE /* Sources */ = {
+		56F46F0B2954E76900DAC2B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56200FDC2954BD67002E20CE /* ViewController.swift in Sources */,
-				56200FD82954BD67002E20CE /* AppDelegate.swift in Sources */,
-				56200FDA2954BD67002E20CE /* SceneDelegate.swift in Sources */,
+				56F46F172954E76900DAC2B8 /* ViewController.swift in Sources */,
+				56F46F132954E76900DAC2B8 /* AppDelegate.swift in Sources */,
+				56F46F152954E76900DAC2B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56200FDD2954BD67002E20CE /* Main.storyboard */ = {
+		56F46F182954E76900DAC2B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				56200FDE2954BD67002E20CE /* Base */,
+				56F46F192954E76900DAC2B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		56200FE22954BD68002E20CE /* LaunchScreen.storyboard */ = {
+		56F46F1D2954E76A00DAC2B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				56200FE32954BD68002E20CE /* Base */,
+				56F46F1E2954E76A00DAC2B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		56200FE62954BD68002E20CE /* Debug */ = {
+		56F46F212954E76A00DAC2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		56200FE72954BD68002E20CE /* Release */ = {
+		56F46F222954E76A00DAC2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		56200FE92954BD68002E20CE /* Debug */ = {
+		56F46F242954E76A00DAC2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,8 +293,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		56200FEA2954BD68002E20CE /* Release */ = {
+		56F46F252954E76A00DAC2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,8 +321,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56200FCF2954BD67002E20CE /* Build configuration list for PBXProject "SpeechSynthApp" */ = {
+		56F46F0A2954E76900DAC2B8 /* Build configuration list for PBXProject "SpeechSynthApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56200FE62954BD68002E20CE /* Debug */,
-				56200FE72954BD68002E20CE /* Release */,
+				56F46F212954E76A00DAC2B8 /* Debug */,
+				56F46F222954E76A00DAC2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56200FE82954BD68002E20CE /* Build configuration list for PBXNativeTarget "SpeechSynthApp" */ = {
+		56F46F232954E76A00DAC2B8 /* Build configuration list for PBXNativeTarget "SpeechSynthApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56200FE92954BD68002E20CE /* Debug */,
-				56200FEA2954BD68002E20CE /* Release */,
+				56F46F242954E76A00DAC2B8 /* Debug */,
+				56F46F252954E76A00DAC2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 56200FCC2954BD67002E20CE /* Project object */;
+	rootObject = 56F46F072954E76900DAC2B8 /* Project object */;
 }
