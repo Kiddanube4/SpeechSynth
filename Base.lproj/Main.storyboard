@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpeechSynthApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ1-In-GDe">
+                                <rect key="frame" x="20" y="453" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mk-LO-YEa">
+                                <rect key="frame" x="10" y="409" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcr-9e-mZO">
+                                <rect key="frame" x="0.0" y="592" width="393" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iT1-7l-5SN">
+                                <rect key="frame" x="20" y="547" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rcr-9e-mZO" secondAttribute="bottom" constant="10" id="0HD-yK-DUo"/>
+                            <constraint firstItem="rcr-9e-mZO" firstAttribute="top" secondItem="iT1-7l-5SN" secondAttribute="bottom" constant="10" id="2ro-qJ-chg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OJ1-In-GDe" secondAttribute="trailing" constant="20" id="H4K-DS-sFG"/>
+                            <constraint firstItem="OJ1-In-GDe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MR1-YA-Utf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iT1-7l-5SN" secondAttribute="trailing" constant="20" id="MX6-1m-q2e"/>
+                            <constraint firstItem="OJ1-In-GDe" firstAttribute="top" secondItem="3mk-LO-YEa" secondAttribute="bottom" constant="10" id="MZp-0f-X8V"/>
+                            <constraint firstItem="iT1-7l-5SN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PEz-Ny-Sl8"/>
+                            <constraint firstItem="rcr-9e-mZO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aLx-KR-R7O"/>
+                            <constraint firstItem="3mk-LO-YEa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="etf-Fi-RAU"/>
+                            <constraint firstItem="rcr-9e-mZO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iga-KF-3fg"/>
+                            <constraint firstItem="3mk-LO-YEa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ngf-fT-Smv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3mk-LO-YEa" secondAttribute="trailing" constant="10" id="tJV-Rr-2H8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnChooseLang" destination="iT1-7l-5SN" id="NZD-mw-bpZ"/>
+                        <outlet property="btnSpeech" destination="OJ1-In-GDe" id="Fio-mz-Vwz"/>
+                        <outlet property="txtInput" destination="3mk-LO-YEa" id="bdp-ay-kQ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
