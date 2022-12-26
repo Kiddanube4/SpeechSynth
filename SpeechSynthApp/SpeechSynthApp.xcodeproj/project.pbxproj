@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C3A4C5295927CE00C20E47 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A4C4295927CE00C20E47 /* ViewControllerViewModel.swift */; };
 		56F46F132954E76900DAC2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F122954E76900DAC2B8 /* AppDelegate.swift */; };
 		56F46F152954E76900DAC2B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F142954E76900DAC2B8 /* SceneDelegate.swift */; };
 		56F46F172954E76900DAC2B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F162954E76900DAC2B8 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56C3A4C4295927CE00C20E47 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 		56F46F0F2954E76900DAC2B8 /* SpeechSynthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F46F122954E76900DAC2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56F46F142954E76900DAC2B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				56F46F1B2954E76A00DAC2B8 /* Assets.xcassets */,
 				56F46F1D2954E76A00DAC2B8 /* LaunchScreen.storyboard */,
 				56F46F202954E76A00DAC2B8 /* Info.plist */,
+				56C3A4C4295927CE00C20E47 /* ViewControllerViewModel.swift */,
 			);
 			path = SpeechSynthApp;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				56F46F172954E76900DAC2B8 /* ViewController.swift in Sources */,
 				56F46F2E295507A700DAC2B8 /* ContentCell.swift in Sources */,
 				56F46F132954E76900DAC2B8 /* AppDelegate.swift in Sources */,
+				56C3A4C5295927CE00C20E47 /* ViewControllerViewModel.swift in Sources */,
 				56F46F152954E76900DAC2B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

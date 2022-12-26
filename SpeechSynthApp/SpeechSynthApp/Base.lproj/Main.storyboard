@@ -27,7 +27,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5m-oT-Vkg">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Speak"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRB-jN-BiL">
                                         <rect key="frame" x="286" y="0.0" width="75" height="34.333333333333336"/>
@@ -93,6 +93,15 @@
                             <constraint firstItem="oSO-Il-Da7" firstAttribute="top" secondItem="eZy-wV-MQn" secondAttribute="bottom" id="vSJ-30-tSa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnSpeak" destination="X5m-oT-Vkg" id="ze0-ef-2ql"/>
+                        <outlet property="btnSpeechSettings" destination="SRB-jN-BiL" id="GMh-i4-J7s"/>
+                        <outlet property="lblHeader" destination="U7q-m6-btV" id="nMA-Q6-HNy"/>
+                        <outlet property="pickerOptions" destination="pV8-xh-jFI" id="g4r-jK-l3E"/>
+                        <outlet property="tblPrerecords" destination="6fH-in-E3i" id="ppW-7Z-O4Z"/>
+                        <outlet property="txtSpeech" destination="jdS-TM-YFj" id="ldo-kj-2Nh"/>
+                        <outlet property="viewMiddle" destination="oSO-Il-Da7" id="q0b-40-vat"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
