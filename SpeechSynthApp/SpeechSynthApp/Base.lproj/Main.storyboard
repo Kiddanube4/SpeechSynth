@@ -21,18 +21,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="211" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-wV-MQn">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-wV-MQn">
                                 <rect key="frame" x="16" y="151" width="361" height="34.333333333333343"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5m-oT-Vkg">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Speak"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRB-jN-BiL">
-                                        <rect key="frame" x="286" y="0.0" width="75" height="34.333333333333336"/>
+                                        <rect key="frame" x="248.33333333333329" y="0.0" width="112.66666666666666" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ses Ayarları"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -100,6 +100,7 @@
                         <outlet property="pickerOptions" destination="pV8-xh-jFI" id="g4r-jK-l3E"/>
                         <outlet property="tblPrerecords" destination="6fH-in-E3i" id="ppW-7Z-O4Z"/>
                         <outlet property="txtSpeech" destination="jdS-TM-YFj" id="ldo-kj-2Nh"/>
+                        <outlet property="viewMain" destination="8bC-Xf-vdC" id="Xgu-8e-CHz"/>
                         <outlet property="viewMiddle" destination="oSO-Il-Da7" id="q0b-40-vat"/>
                     </connections>
                 </viewController>

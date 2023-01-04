@@ -12,6 +12,8 @@ class ViewControllerViewModel
     
     private var languages:[String] = []
     private var sounds:[String] = []
+    public var currentLanguage = ""
+    let synthesizer = AVSpeechSynthesizer()
     
     
     func getLanguages()->[String]
@@ -40,6 +42,15 @@ class ViewControllerViewModel
     func getSoundCount()->Int
     {
         return sounds.count
+    }
+    
+    func speak(whatToSay speechStr:String, inWhatLanguage languageStr:String)
+    {
+       
+        let speaker = AVSpeechUtterance(string: speechStr)
+        speaker.voice = AVSpeechSynthesisVoice(language: languageStr)
+        
+        synthesizer.speak(speaker)
     }
     
 }

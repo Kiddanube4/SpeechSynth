@@ -11,6 +11,7 @@ import UIKit
 
 class HeaderCell:BaseTVCell
 {
+    @IBOutlet weak var lblHeader: UILabel!
     override class func awakeFromNib() {
         super.awakeFromNib()
         
