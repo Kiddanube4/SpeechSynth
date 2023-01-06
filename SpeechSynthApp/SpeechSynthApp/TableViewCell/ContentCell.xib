@@ -16,7 +16,10 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyo-us-Btq">
-                        <rect key="frame" x="20.000000000000004" y="26" width="41.333333333333343" height="21"/>
+                        <rect key="frame" x="20" y="26" width="300" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="7VD-zi-iHN"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -51,6 +54,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="lblPresetSoundLang" destination="7AB-tH-Krl" id="7Ap-jk-6WU"/>
                 <outlet property="lblPresetSoundName" destination="tyo-us-Btq" id="Li0-rq-nAx"/>
                 <outlet property="viewCell" destination="w4Q-cn-Mxy" id="zcg-yK-eZQ"/>
             </connections>

@@ -19,6 +19,8 @@
 		56F46F2C2955073700DAC2B8 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56F46F2B2955073700DAC2B8 /* HeaderCell.xib */; };
 		56F46F2E295507A700DAC2B8 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F46F2D295507A700DAC2B8 /* ContentCell.swift */; };
 		56F46F30295507CA00DAC2B8 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56F46F2F295507CA00DAC2B8 /* ContentCell.xib */; };
+		9D0097E529677F82008B3A3F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0097E429677F82008B3A3F /* Model.swift */; };
+		9D0097E729684566008B3A3F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0097E629684566008B3A3F /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		56F46F2B2955073700DAC2B8 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		56F46F2D295507A700DAC2B8 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 		56F46F2F295507CA00DAC2B8 /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
+		9D0097E429677F82008B3A3F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9D0097E629684566008B3A3F /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				56F46F1D2954E76A00DAC2B8 /* LaunchScreen.storyboard */,
 				56F46F202954E76A00DAC2B8 /* Info.plist */,
 				56C3A4C4295927CE00C20E47 /* ViewControllerViewModel.swift */,
+				9D0097E429677F82008B3A3F /* Model.swift */,
+				9D0097E629684566008B3A3F /* Enums.swift */,
 			);
 			path = SpeechSynthApp;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				56F46F132954E76900DAC2B8 /* AppDelegate.swift in Sources */,
 				56C3A4C5295927CE00C20E47 /* ViewControllerViewModel.swift in Sources */,
 				56F46F152954E76900DAC2B8 /* SceneDelegate.swift in Sources */,
+				9D0097E729684566008B3A3F /* Enums.swift in Sources */,
+				9D0097E529677F82008B3A3F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         var viewModelData = ViewControllerViewModel()
         languages =  viewModelData.getLanguages()
         sounds = viewModelData.getSounds()
+        
         return viewModelData
         
     }()
@@ -80,12 +81,6 @@ class ViewController: UIViewController {
     @objc func dismissKeyboard()
     {
         view.endEditing(true)
-        
-    //    if pickerOptions.isHidden
-    //    {
-    //        pickerOptions.isHidden = false
-    //        return
-    //    }
         pickerOptions.isHidden = true
     }
 
@@ -95,7 +90,11 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        if section == 0
+        {
+            return 1
+        }
+        return viewModel.getPresetSounds(count: 1).count
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
@@ -115,6 +114,9 @@ extension ViewController: UITableViewDataSource
         }
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ContentCell") as? ContentCell
         {
+            let viewModelData = viewModel.getCellData(at: indexPath, from: viewModel.getPresetSounds(count: 0))
+            cell.contentCellViewModel = viewModelData
+            
             
             return cell
         }

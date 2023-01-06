@@ -12,8 +12,11 @@ class ViewControllerViewModel
     
     private var languages:[String] = []
     private var sounds:[String] = []
+    private var presetSoundModel = [SpeechSynthModel]()
     public var currentLanguage = ""
+    var presetSoundCount = 0
     let synthesizer = AVSpeechSynthesizer()
+    
     
     
     func getLanguages()->[String]
@@ -44,13 +47,38 @@ class ViewControllerViewModel
         return sounds.count
     }
     
+    @discardableResult func getPresetSounds(count:Int) -> [SpeechSynthModel]
+    {
+        
+        if count < randomSentences.count
+        {
+            for _ in 0...count
+            {
+                let randomLanguage = languages.randomElement()
+                let randomSound = randomSentences.randomElement()
+                let randomModelElemnt = SpeechSynthModel(presetSoundName: randomSound, presetSoundLang: randomLanguage)
+                presetSoundModel.append(randomModelElemnt)
+                
+            }
+        }
+      
+        presetSoundCount = presetSoundModel.count
+        return presetSoundModel
+    }
+    
+    
     func speak(whatToSay speechStr:String, inWhatLanguage languageStr:String)
     {
-       
+        
         let speaker = AVSpeechUtterance(string: speechStr)
         speaker.voice = AVSpeechSynthesisVoice(language: languageStr)
         
         synthesizer.speak(speaker)
+    }
+    
+    func getCellData<T>(at IndexPath:IndexPath,from data:[T?])->T?
+    {
+        return data.isEmpty == true ? nil : data[IndexPath.row]
     }
     
 }
