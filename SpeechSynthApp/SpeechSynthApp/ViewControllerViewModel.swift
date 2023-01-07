@@ -16,6 +16,7 @@ class ViewControllerViewModel
     public var currentLanguage = ""
     var presetSoundCount = 0
     let synthesizer = AVSpeechSynthesizer()
+    static let ahared = ViewControllerViewModel()
     
     
     

@@ -25,7 +25,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zrY-sN-a0B">
-                        <rect key="frame" x="343" y="9" width="75" height="55"/>
+                        <rect key="frame" x="347" y="9" width="75" height="55"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AB-tH-Krl">
                                 <rect key="frame" x="17.000000000000004" y="0.0" width="41.333333333333343" height="20.333333333333332"/>
@@ -54,6 +54,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="btnSpeak" destination="2eG-4g-YWm" id="x7g-go-i5e"/>
                 <outlet property="lblPresetSoundLang" destination="7AB-tH-Krl" id="7Ap-jk-6WU"/>
                 <outlet property="lblPresetSoundName" destination="tyo-us-Btq" id="Li0-rq-nAx"/>
                 <outlet property="viewCell" destination="w4Q-cn-Mxy" id="zcg-yK-eZQ"/>
